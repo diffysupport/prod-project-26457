@@ -1,0 +1,47 @@
+basic:
+    name: Workingolden
+    environments:
+        production: 'https://www.workingolden.ca'
+        staging: 'https://staging.workingolden.ca'
+        development: ''
+    breakpoints:
+        - 375
+        - 768
+        - 1440
+    pages:
+        - /
+        - /job-search
+        - /faq
+        - /job-alerts
+        - /jobs/2024-05/house-cleaner-vacation-rentals
+        - /jobs/2025-05/operations-manager
+        - /jobs/2025-05/heavy-duty-mechanic
+        - /jobs/2023-01/visitor-information-counsellor
+        - /jobs/2025-04/office-manager-bookkeeper-maternity-leave
+        - /jobs/2025-03/adventure-lead-positions
+        - /jobs/2025-04/lead-timberframer
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 10
+    scroll: false
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
