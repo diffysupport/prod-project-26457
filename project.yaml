@@ -10,16 +10,6 @@ basic:
         - 1600
     pages:
         - /
-        - /job-search
-        - /faq
-        - /job-alerts
-        - /jobs/2024-05/house-cleaner-vacation-rentals
-        - /jobs/2025-05/operations-manager
-        - /jobs/2025-05/heavy-duty-mechanic
-        - /jobs/2023-01/visitor-information-counsellor
-        - /jobs/2025-04/office-manager-bookkeeper-maternity-leave
-        - /jobs/2025-03/adventure-lead-positions
-        - /jobs/2025-04/lead-timberframer
     monitoring:
         days: {  }
         type: ''
